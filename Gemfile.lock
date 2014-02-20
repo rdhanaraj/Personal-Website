@@ -123,6 +123,7 @@ DEPENDENCIES
   font-awesome-rails
   jbuilder (~> 1.2)
   jquery-rails
+  minitest (~> 4.7.5)
   pg
   rails (= 4.0.2)
   rails_12factor

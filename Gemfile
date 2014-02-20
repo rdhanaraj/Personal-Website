@@ -28,6 +28,8 @@ gem 'bootstrap-sass'
 
 gem 'font-awesome-rails'
 
+gem 'minitest', '~> 4.7.5'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
