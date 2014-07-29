@@ -1,0 +1,77 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  background: url('<%= asset_path 'logo.png' %>');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+#intro {
+  background-color: rgba(0,0,0,1);
+  width: 100%;
+  padding: 30px;
+  margin-top: 10%;
+}
+
+.cursive {
+  font-family: 'Lobster';
+  font-size: 40px;
+  color: #c0392b;
+  text-align: right;
+}
+
+#transparent {
+  color: rgba(0,0,0,1);
+}
+
+#first-look {
+  padding-left: 40px;
+}
+
+#tagline {
+  color: white;
+  font-size: 30px;
+  align: top;
+  margin-left: 88px;
+  margin-bottom: 5px;
+}
+
+.role {
+  font-size: 20px;
+  color: white;
+}
+
+h1 {
+  // text-transform: uppercase;
+  margin-top: 0px;
+  padding-top: 0px;
+  border-top: 0px;
+  margin-bottom: 0px;
+  font: 800 54px/54px "raleway";
+}
+
+.highlight {
+  color: white;
+}
+
+.unselectable {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}
+
+.centered {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
